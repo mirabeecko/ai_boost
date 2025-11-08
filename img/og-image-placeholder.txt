@@ -1,0 +1,22 @@
+OG IMAGE PLACEHOLDER
+
+Prosím vytvořte obrázek s těmito parametry:
+
+Rozměry: 1200 × 630 px
+Formát: JPG nebo PNG
+Název souboru: og-image.jpg
+
+Obsah:
+- Pozadí: Modrá barva #2563EB nebo gradient
+- Text: "AI Boost"
+- Podtitulek: "3 dny k chytřejší firmě"
+- Logo nebo AI ilustrace (volitelně)
+
+Online nástroje pro vytvoření:
+- Canva.com (šablony pro Social Media)
+- Figma.com
+- Adobe Express
+
+Nebo použijte jakýkoliv grafický editor (Photoshop, GIMP, atd.)
+
+Po vytvoření nahrajte jako: /img/og-image.jpg

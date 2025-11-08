@@ -1,0 +1,115 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient circle -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0EA5E9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Large background circle -->
+  <circle cx="250" cy="250" r="200" fill="url(#grad1)"/>
+
+  <!-- Central AI brain/chip -->
+  <rect x="180" y="180" width="140" height="140" rx="20" fill="white" opacity="0.9"/>
+  <rect x="190" y="190" width="120" height="120" rx="15" fill="url(#grad2)"/>
+
+  <!-- Circuit lines inside chip -->
+  <line x1="210" y1="210" x2="290" y2="210" stroke="white" stroke-width="3" opacity="0.8"/>
+  <line x1="210" y1="230" x2="270" y2="230" stroke="white" stroke-width="3" opacity="0.8"/>
+  <line x1="210" y1="250" x2="290" y2="250" stroke="white" stroke-width="3" opacity="0.8"/>
+  <line x1="210" y1="270" x2="260" y2="270" stroke="white" stroke-width="3" opacity="0.8"/>
+  <line x1="210" y1="290" x2="290" y2="290" stroke="white" stroke-width="3" opacity="0.8"/>
+
+  <!-- Vertical lines -->
+  <line x1="230" y1="210" x2="230" y2="290" stroke="white" stroke-width="2" opacity="0.6"/>
+  <line x1="250" y1="210" x2="250" y2="290" stroke="white" stroke-width="2" opacity="0.6"/>
+  <line x1="270" y1="210" x2="270" y2="290" stroke="white" stroke-width="2" opacity="0.6"/>
+
+  <!-- Corner decorations -->
+  <circle cx="200" cy="200" r="8" fill="white"/>
+  <circle cx="300" cy="200" r="8" fill="white"/>
+  <circle cx="200" cy="300" r="8" fill="white"/>
+  <circle cx="300" cy="300" r="8" fill="white"/>
+
+  <!-- Floating elements around the chip -->
+
+  <!-- Top left - Analytics icon -->
+  <g transform="translate(100, 100)">
+    <rect width="60" height="60" rx="10" fill="url(#grad2)" opacity="0.9"/>
+    <path d="M15 45 L25 35 L35 40 L45 25" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="15" cy="45" r="3" fill="white"/>
+    <circle cx="25" cy="35" r="3" fill="white"/>
+    <circle cx="35" cy="40" r="3" fill="white"/>
+    <circle cx="45" cy="25" r="3" fill="white"/>
+  </g>
+
+  <!-- Top right - Rocket -->
+  <g transform="translate(340, 90)">
+    <rect width="60" height="60" rx="10" fill="url(#grad3)" opacity="0.9"/>
+    <path d="M30 15 L30 30 L20 40 L30 35 L40 40 L30 30 Z" fill="white"/>
+    <circle cx="30" cy="25" r="4" fill="url(#grad3)"/>
+    <path d="M15 40 L20 45" stroke="white" stroke-width="2"/>
+    <path d="M45 40 L40 45" stroke="white" stroke-width="2"/>
+  </g>
+
+  <!-- Bottom left - Settings -->
+  <g transform="translate(90, 340)">
+    <rect width="60" height="60" rx="10" fill="url(#grad4)" opacity="0.9"/>
+    <circle cx="30" cy="30" r="8" fill="none" stroke="white" stroke-width="2"/>
+    <circle cx="30" cy="30" r="4" fill="white"/>
+    <rect x="28" y="15" width="4" height="10" rx="2" fill="white"/>
+    <rect x="28" y="35" width="4" height="10" rx="2" fill="white"/>
+    <rect x="15" y="28" width="10" height="4" ry="2" fill="white"/>
+    <rect x="35" y="28" width="10" height="4" ry="2" fill="white"/>
+  </g>
+
+  <!-- Bottom right - Lightning/Speed -->
+  <g transform="translate(350, 350)">
+    <rect width="60" height="60" rx="10" fill="url(#grad2)" opacity="0.9"/>
+    <path d="M35 15 L20 35 L28 35 L25 45 L40 25 L32 25 L35 15 Z" fill="white"/>
+  </g>
+
+  <!-- Connecting lines with dots -->
+  <g opacity="0.3">
+    <line x1="130" y1="130" x2="180" y2="180" stroke="url(#grad2)" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="370" y1="120" x2="320" y2="180" stroke="url(#grad3)" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="120" y1="370" x2="180" y2="320" stroke="url(#grad4)" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="380" y1="380" x2="320" y2="320" stroke="url(#grad2)" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- Orbiting particles -->
+  <circle cx="250" cy="80" r="6" fill="url(#grad2)" opacity="0.7">
+    <animateTransform attributeName="transform" type="rotate" from="0 250 250" to="360 250 250" dur="20s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="420" cy="250" r="8" fill="url(#grad3)" opacity="0.7">
+    <animateTransform attributeName="transform" type="rotate" from="0 250 250" to="360 250 250" dur="25s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="250" cy="420" r="7" fill="url(#grad4)" opacity="0.7">
+    <animateTransform attributeName="transform" type="rotate" from="0 250 250" to="360 250 250" dur="30s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="80" cy="250" r="9" fill="url(#grad2)" opacity="0.7">
+    <animateTransform attributeName="transform" type="rotate" from="0 250 250" to="360 250 250" dur="22s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Pulsing center indicator -->
+  <circle cx="250" cy="250" r="5" fill="white">
+    <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
