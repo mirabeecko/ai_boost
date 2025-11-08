@@ -1,6 +1,23 @@
 # AI Boost – Webová prezentace
 
+[![GitHub](https://img.shields.io/badge/GitHub-ai__boost-blue?logo=github)](https://github.com/mirabeecko/ai_boost)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 Moderní, responzivní jednoduchá webová stránka pro službu AI Boost – 3denní transformace firmy pomocí AI.
+
+## 🌐 Live Demo
+
+Otevřete `index.html` ve vašem prohlížeči nebo spusťte lokální server:
+
+```bash
+# Python 3
+python3 -m http.server 8000
+
+# PHP
+php -S localhost:8000
+```
+
+Poté otevřete: http://localhost:8000
 
 ## 📁 Struktura projektu
 
