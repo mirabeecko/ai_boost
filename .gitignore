@@ -1,0 +1,22 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
+
+# Environment files (if added later)
+.env
+.env.local
+
+# PHPMailer (if added)
+vendor/
+composer.lock
