@@ -5,6 +5,17 @@
 
 Moderní, responzivní jednoduchá webová stránka pro službu AI Boost – 3denní transformace firmy pomocí AI.
 
+## ✨ Funkce
+
+- 🎨 **Sexy moderní design** s gradienty a animacemi
+- 📱 **Plně responzivní** – perfektní na mobilu, tabletu i desktopu
+- ⚡ **Rychlé načítání** – vanilla JS, žádné frameworky
+- 🎭 **Interaktivní animace** – hover efekty, floating elementy, pulsing ikony
+- 📧 **PHP kontaktní formulář** s validací a AJAX odesláním
+- 🔒 **GDPR compliant** – cookie banner, privacy modal
+- 🎯 **SEO optimalizované** – meta tagy, Open Graph, JSON-LD
+- ♿ **Přístupné** – ARIA atributy, správný kontrast
+
 ## 🌐 Live Demo
 
 Otevřete `index.html` ve vašem prohlížeči nebo spusťte lokální server:
